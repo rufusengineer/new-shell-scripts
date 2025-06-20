@@ -1,2 +1,2 @@
-# new-shell
-Using scripts to hardened shell security
+# new-shell-scripts
+Using BASH scripts to hardened shell security
