@@ -117,3 +117,6 @@ systemctl status bluetooth 2>/dev/null | grep -E "Loaded|Active" || echo "Blueto
 
 echo -e "\n\033[1;32m[✓] All wireless services disabled persistently!\033[0m"
 echo -e "\033[1;31m[!] Reboot required for changes to take full effect\033[0m\n"
+
+echo -e "\033[1;31m[!] Adding this script to system startup \033[0m\n"
+sudo ln -s start_disable_wifi_ble.sh /etc/rc.local
